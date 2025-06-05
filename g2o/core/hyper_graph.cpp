@@ -33,6 +33,9 @@
 
 namespace g2o {
 
+  const int HyperGraph::UnassignedId;
+  const int HyperGraph::InvalidId;
+
   HyperGraph::Data::Data() {
     _next = 0;
     _dataContainer = 0;
